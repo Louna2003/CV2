@@ -2,122 +2,187 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<title>Mon cv responsive en HTML CSS</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon futur CV </title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
 <body>
-    <div class="container">
-    <div class="left_Side">
-        <div class="profileText">
-         <div class="imgBx">
-            <img src="Images/Avatar Image.jpg">
-         </div>
-        <h2>louna Foullon <br> <span>Communication grahiste</span></h2>
-      </div> 
 
-   <div class="contactInfo">
-      <h3 class="title">Contact</h3>
-      <ul>
-        <li>
-            <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
-            <span class="text">Loremipsum@gmail.com</span>
-        </li>
-        <li>
-            <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
-            <span class="text">Lorem Ipsum</span>
+<div class="resume_wrapper">
+	<div class="resume_left">
+		<div class="resume_image">
+			<img src="me mini.png" alt="Resume_image">
+		</div>
+		<div class="resume_bottom">
+			<div class="resume_item resume_namerole">
+				<div class="name">Louna Foullon</div>
+				<div class="role">Communication graphique et web Design</div>
+			</div>
+			<div class="resume_item resume_profile">
+				<div class="resume_title">Profile</div>
+				<div class="resume_info">Dotée d'un bac St2s, J'ai décidée de m'orienter vers une formation numérique pour devenir graphiste</div>
+			</div>
+			<div class="resume_item resume_address">
+				<div class="resume_title">Adresse</div>
+				<div class="resume_info">
+					Route de mesnil- Esnard,<br/>
+					Belbeuf ,<br/>
+					Rouen
+				</div>
+			</div>
+			<div class="resume_item resume_contact">
+				<div class="resume_title">Contact</div>
+				<div class="resume_info">
+					<div class="resume_subtitle">Télephone</div>
+					<div class="resume_subinfo">07 66 31 63 53</div>
+				</div>
+				<div class="resume_info">
+					<div class="resume_subtitle">Email</div>
+					<div class="resume_subinfo">lfoullon@normandiewebschool.fr</div>
+				</div>
+			</div>
+			<div class="resume_item resume_skills">
+				<div class="resume_title">Compétences</div>
+				<div class="resume_info">
+					<div class="skills_list">
+						<div class="skills_left">Figma</div>
+						<div class="skills_bar">
+							<p>
+								<span style="width: 100%"></span>
+							</p>
+						</div>
+					</div>
+					<div class="skills_list">
+						<div class="skills_left">Illustrator</div>
+						<div class="skills_bar">
+							<p>
+								<span style="width: 80%"></span>
+							</p>
+						</div>
+					</div>
+					<div class="skills_list">
+						<div class="skills_left">InDesign</div>
+						<div class="skills_bar">
+							<p>
+								<span style="width: 50%"></span>
+							</p>
+						</div>
+					</div>
+					<div class="skills_list">
+						<div class="skills_left">Photoshop, Premiere Pro</div>
+						<div class="skills_bar">
+							<p>
+								<span style="width: 50%"></span>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="resume_right">
+		<div class="resume_item resume_namerole">
+			<div class="name">Louna Foullon</div>
+			<div class="role">Communication graphique et web Design</div>
+		</div>
+		<div class="resume_item resume_education">
+			<div class="resume_title">Formation</div>
+			<div class="resume_info">
+				<div class="resume_data">
+					<div class="year">2022 - 2025</div>
+					<div class="content">
+						<p>Chef de projet digital</p>
+						<p>Normandie Web School - Rouen.</p>
+					</div>
+				</div>
+				<div class="resume_data">
+					<div class="year">2022</div>
+					<div class="content">
+						<p>Baccalauréat St2s</p>
+						<p>Dipôme du Baccalauréat St2s : Sciences et Technologies de la Santé et du Social <br> Mention Assez Bien </br></p>
+					</div>
+				</div>
+				<div class="resume_data">
+					<div class="year"></div>
+					<div class="content">
+						<p></p>
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="resume_item resume_experience">
+			<div class="resume_title">Réalisations</div>
+			<div class="resume_info">
+				<div class="resume_data">
+					<div class="year">2022</div>
+					<div class="content">
+						<p><strong>Projet Freneuse-sur-Risle</strong></p>
+						<p>Reconstrution d'un site de mairie : Freneuse-sur-Risle, en tant que graphiste.</p>
+					</div>
+				</div>
+				<div class="resume_data">
+					<div class="year"></div>
+					<div class="content">
+						<p><strong>Projet BDE</strong></p>
+						<p>Atelier culinaire (Happy and Healthy) : création d'affiche.</p>
+					</div>
+				</div>
+				<div class="resume_data">
+					<div class="year"></div>
+					<div class="content">
+						<p><strong>Site vitrine</strong></p>
+						<p>Exercice d'un site vitrine qui portait sur un projet de notre choix..</p>
+					</div>
+				</div>
+				<div class="resume_data">
+					<div class="year"></div>
+					<div class="content">
+						<p><strong>Iconographies du Slip français</strong></p>
+						<p>Exercice : créer des iconographies dans le style de la marque française : le Slip français.</p>
+					</div>
+				</div>
+				<div class="resume_data">
+					<div class="year">2023</div>
+					<div class="content">
+						<p><strong>Stage 2023</strong></p>
+						<p>Création d'un site internet : CoolSneaks. <br> Création d'une plaquette Marketing </br> Montage vidéo <br> modifications sur le site de la résidence publication de contenus sur les réseaux sociaux   </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="resume_item resmue_interests">
+			<div class="resume_title">Interests</div>
+			<div class="resume_info">
+				<div class="interests">
+					<div class="int_icon">
+						
+					</div>
+					<div class="int_data">Cuisine</div>
+				</div>
+				<div class="interests">
+					<div class="int_icon">
+						
+					</div>
+					<div class="int_data">Lecture</div>
+				</div>
+				<div class="interests">
+					<div class="int_icon">
+						
+					</div>
+					<div class="int_data">Photographie</div>
+				</div>
+				<div class="interests">
+					<div class="int_icon">
+						
+					</div>
+					<div class="int_data">Dessiner</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-        </li>
-        <li>
-            <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-            <span class="text">Lorem Ipsum</span>
-
-        </li>
-        <li>
-            <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
-            <span class="text">Lorem Ipsum</span>
-        </li>
-      </ul>
-    </div> 
-
-    <div class="contactInfo formation">
-        <h3 class="title">Formation</h3>
-        <ul>
-          <li>
-             <h5>2022- 2025</h5> 
-             <h4>Chef de projet digital</h4>
-             <h4>lorem Ipsum</h4>
-          </li>
-          <li>
-            <h5>2022</h5> 
-            <h4>Dipôme du Baccalauréat St2s<br> lorem Ipsum</h4>
-            <h4>lorem Ipsum</h4>
-        </ul>
-      </div>
-
-      <div class="contactInfo langues">
-        <h3 class="title">Langues</h3>
-        <ul>
-            <li>
-                <span class="text">lorem ipsum</span>
-            </li>
-         </ul>   
-        </div>
-    </div>    
-
-    <div class="right_Side">
-      <div class="about">
-        <h2 class="title2">Profil</h2>
-        <p> Dotée d'un bac St2s <br> J'ai décidée de m'orienter vers une formation numérique pour devenir graphiste</p>
-       </div>
-       <div class="about">
-        <h2 class="title2">Expériences professionnelles</h2>
-        <div class="box">
-            <div class="year_compagny">
-                <h5>12.2018</h5>
-                <h5>STUDIO SKYLAB</h5>
-            </div>
-            <div class="text">
-                <h4>Lorem Ipsum</h4>
-                <p>Lorem Ipsum</p>
-                <p>Lorem Ipsum</p>
-                <p>Lorem Ipsum</p>
-                <p>Lorem Ipsum</p>
-                <p>Lorem Ipsum</p>
-            </div>
-       </div>
-    </div>
-
-    <div class="about skills">
-        <h2 class="title2">Compétences</h2> 
-        <div class="box">
-            <h4>Figma : lorem Ipsum</h4>
-        </div>
-        <div class="box">
-            <h4>Illustrator : lorem Ipsum</h4>
-        </div>
-        <div class="box">
-            <h4>InDesign : lorem Ipsum</h4>
-        </div>    
-        <div class="box">
-            <h4>Photoshop : lorem Ipsum</h4>
-        </div>
-        <div class="box">
-            <h4>Premiere Pro : lorem Ipsum</h4>
-        </div>
-    </div>
-    
-    <div class="about interest">
-        <h2 class="title2">Centres d'intêrets</h2>
-        <ul>
-            <li></i>Lorem Ipsum</li>
-            <li></i>Lorem Ipsum</li>
-            <li></i>Lorem Ipsum</li>
-            <li></i>Lorem Ipsum</li>
-        </ul>
-       </div>        
-    </div>
-  </div>
 </body>
 </html>
